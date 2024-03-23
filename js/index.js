@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $("#vis-a").click(function(){
+        document.getElementById("vis").style.display="none";
+        document.getElementById("vis-a").style.color="#F8F7F5";
+        document.getElementById("vis-a").style.backgroundColor="#2E3592";
+        document.getElementById("vis-b").style.color="#2E3592";
+        document.getElementById("vis-b").style.backgroundColor="#F8F7F5";
+        $("#mis").slideDown();
+    })
+    $("#vis-b").click(function(){
+        document.getElementById("mis").style.display="none";
+        document.getElementById("vis-b").style.color="#F8F7F5";
+        document.getElementById("vis-b").style.
+        backgroundColor="#2E3592";
+        document.getElementById("vis-a").style.color="#2E3592";
+        document.getElementById("vis-a").style.backgroundColor="#F8F7F5";
+        $("#vis").slideDown();
+    })
+})
+
